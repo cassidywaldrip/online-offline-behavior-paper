@@ -1,0 +1,12 @@
+# Core dependencies (versions this project was last run with).
+# The pipeline is CPU-only except the MIL fine-tunes (finetune_*.py), which need a CUDA GPU.
+# Install torch per your platform/CUDA (https://pytorch.org); the +cuXXX build below is what we used.
+numpy==2.2.0
+pandas==2.2.3
+scikit-learn==1.8.0
+scipy==1.16.2
+matplotlib==3.10.0
+pyarrow==18.1.0
+# --- GPU: MIL fine-tuning only ---
+torch==2.12.0            # we ran 2.12.0+cu126; pick the build matching your CUDA
+transformers==5.2.0

@@ -1,0 +1,5 @@
+subgroup,demo_3dim,demo_7dim,best_trace_roc,lift_over_3dim,lift_over_7dim
+Overall,0.660,0.737,0.744,+0.084,+0.007
+Democrats,0.541,0.774,0.735,+0.194,-0.039
+Republicans,0.525,0.609,0.732,+0.207,+0.124
+Independents,0.521,0.652,0.696,+0.175,+0.044

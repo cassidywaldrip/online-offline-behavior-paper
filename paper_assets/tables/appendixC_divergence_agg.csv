@@ -1,0 +1,5 @@
+group,n,med_tweets,med_followees,pct_channels_agree,pct_cross
+All modeled,1515,11,70,46.8,4.9
+High-signal,524,51,198,61.5,3.4
+"High-signal, trace agrees w/ survey",432,64,198,68.5,1.6
+"High-signal, trace DIVERGES from survey",16,32,150,62.5,12.5

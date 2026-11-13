@@ -1,0 +1,16 @@
+outcome,subgroup,n,prevalence,demo_roc,demo_ci,best_trace_combo,best_trace_roc,best_trace_ci,lift_over_demo,beats_demo
+Candidate choice,Overall,1527,0.706,0.918,"[0.917, 0.919]",Auth+Feed+Net,0.808,"[0.807, 0.809]",-0.110,No
+Candidate choice,Republicans,371,0.140,0.481,"[0.467, 0.494]",Feed+Net,0.727,"[0.725, 0.728]",+0.246,Yes
+Candidate choice,Independents,363,0.703,0.605,"[0.602, 0.609]",Auth+Feed,0.777,"[0.775, 0.778]",+0.171,Yes
+Vaccine refusal,Overall,2402,0.131,0.660,"[0.659, 0.661]",Auth+Net,0.720,"[0.718, 0.721]",+0.060,Yes
+Vaccine refusal,Democrats,1134,0.064,0.541,"[0.534, 0.548]",Auth+Feed+Net,0.722,"[0.719, 0.725]",+0.180,Yes
+Vaccine refusal,Republicans,514,0.206,0.525,"[0.520, 0.531]",Auth+Feed+Net,0.732,"[0.729, 0.735]",+0.207,Yes
+Vaccine refusal,Independents,754,0.179,0.521,"[0.516, 0.526]",Net,0.684,"[0.684, 0.685]",+0.164,Yes
+Mail-voting intent,Overall,1322,0.634,0.610,"[0.608, 0.612]",Net,0.586,"[0.585, 0.587]",-0.025,No
+Mail-voting intent,Democrats,615,0.738,0.452,"[0.444, 0.459]",Auth,0.498,"[0.493, 0.504]",+0.047,Yes
+Mail-voting intent,Republicans,293,0.468,0.468,"[0.455, 0.480]",Auth+Feed+Net,0.686,"[0.682, 0.689]",+0.218,Yes
+Mail-voting intent,Independents,414,0.597,0.471,"[0.463, 0.479]",Feed,0.568,"[0.564, 0.572]",+0.097,Yes
+Turnout intent,Overall,1879,0.875,0.709,"[0.707, 0.711]",Auth+Net,0.677,"[0.675, 0.679]",-0.031,No
+Turnout intent,Democrats,876,0.931,0.663,"[0.658, 0.668]",Auth+Net,0.703,"[0.701, 0.705]",+0.040,Yes
+Turnout intent,Republicans,421,0.900,0.589,"[0.585, 0.594]",Auth+Feed+Net,0.649,"[0.643, 0.655]",+0.060,Yes
+Turnout intent,Independents,582,0.771,0.600,"[0.597, 0.602]",Auth+Net,0.665,"[0.662, 0.668]",+0.065,Yes

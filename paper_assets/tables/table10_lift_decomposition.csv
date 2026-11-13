@@ -1,0 +1,16 @@
+outcome,subgroup,best_model,best_roc,above_chance,shap_demo,shap_auth,shap_feed,shap_net,top_feature,individual,relational,relational_share
+Candidate choice,Overall,Demo+Feed+Net,0.939,+0.439,+0.241,--,+0.091,+0.106,Demo,+0.241,+0.198,45%
+Candidate choice,Republicans,Feed+Net,0.727,+0.227,--,--,+0.130,+0.097,Feed,+0.000,+0.227,100%
+Candidate choice,Independents,Auth+Feed,0.777,+0.277,--,+0.119,+0.158,--,Feed,+0.119,+0.158,57%
+Vaccine refusal,Overall,Demo+Auth+Net,0.744,+0.244,+0.075,+0.058,--,+0.111,Net,+0.133,+0.111,45%
+Vaccine refusal,Democrats,Demo+Auth+Feed+Net,0.735,+0.235,+0.023,+0.052,+0.065,+0.095,Net,+0.075,+0.160,68%
+Vaccine refusal,Republicans,Auth+Feed+Net,0.732,+0.232,--,+0.086,+0.077,+0.069,Auth,+0.086,+0.147,63%
+Vaccine refusal,Independents,Demo+Net,0.696,+0.196,+0.016,--,--,+0.180,Net,+0.016,+0.180,92%
+Mail-voting intent,Overall,Demo+Net,0.631,+0.131,+0.078,--,--,+0.053,Demo,+0.078,+0.053,41%
+Mail-voting intent,Democrats,Auth,0.498,-0.002,--,-0.002,--,--,Auth,-0.002,+0.000,--
+Mail-voting intent,Republicans,Auth+Feed+Net,0.686,+0.186,--,+0.061,+0.059,+0.066,Net,+0.061,+0.125,67%
+Mail-voting intent,Independents,Feed,0.568,+0.068,--,--,+0.068,--,Feed,+0.000,+0.068,100%
+Turnout intent,Overall,Demo+Net,0.744,+0.244,+0.139,--,--,+0.104,Demo,+0.139,+0.104,43%
+Turnout intent,Democrats,Demo+Net,0.719,+0.219,+0.096,--,--,+0.123,Net,+0.096,+0.123,56%
+Turnout intent,Republicans,Demo+Net,0.660,+0.160,+0.057,--,--,+0.103,Net,+0.057,+0.103,64%
+Turnout intent,Independents,Demo+Auth+Net,0.669,+0.169,+0.038,+0.052,--,+0.079,Net,+0.090,+0.079,47%

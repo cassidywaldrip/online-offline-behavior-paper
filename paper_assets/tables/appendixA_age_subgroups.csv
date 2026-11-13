@@ -1,0 +1,15 @@
+outcome,subgroup,n,prevalence,demo_roc,best_model,best_roc,lift_over_demo
+Candidate choice,18--24,223,0.794,0.906,Demo+Auth+Net,0.953,+0.047
+Candidate choice,25--44,690,0.712,0.910,Demo+Net,0.928,+0.018
+Candidate choice,45--64,458,0.662,0.916,Demo+Feed+Net,0.945,+0.029
+Candidate choice,65+,156,0.686,0.927,Demo+Auth+Feed+Net,0.958,+0.031
+Vaccine refusal,18--24,451,0.111,0.647,Demo+Net,0.780,+0.133
+Vaccine refusal,25--44,1160,0.134,0.634,Demo+Feed+Net,0.721,+0.087
+Vaccine refusal,45--64,630,0.157,0.696,Demo+Auth+Net,0.762,+0.066
+Mail-voting intent,18--24,196,0.653,0.581,Demo+Auth,0.590,+0.008
+Mail-voting intent,25--44,606,0.660,0.586,Demo+Net,0.614,+0.028
+Mail-voting intent,45--64,394,0.574,0.613,Demo+Net,0.641,+0.028
+Mail-voting intent,65+,126,0.667,0.698,Demo+Net,0.727,+0.029
+Turnout intent,18--24,298,0.775,0.608,Demo+Auth+Net,0.666,+0.058
+Turnout intent,25--44,859,0.871,0.666,Demo+Net,0.715,+0.049
+Turnout intent,45--64,547,0.910,0.714,Demo+Auth+Net,0.767,+0.053

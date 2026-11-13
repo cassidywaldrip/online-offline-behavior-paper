@@ -1,0 +1,11 @@
+target,Candidate choice,Vaccine refusal,Mail-voting intent,Turnout intent
+Behavior (the outcome),0.808,0.715,0.582,0.668
+Party: Democrat,0.717,0.671,0.667,0.608
+Party: Republican,0.760,0.673,0.692,0.638
+Party: Independent/Other,0.507,0.541,0.535,0.535
+Gender: female,0.645,0.702,0.626,0.589
+Gender: male,0.642,0.701,0.624,0.589
+Age 18--24,0.777,0.844,0.782,0.843
+Age 25--44,0.572,0.569,0.569,0.550
+Age 45--64,0.614,0.739,0.660,0.693
+Age 65+,0.667,0.727,0.652,0.694

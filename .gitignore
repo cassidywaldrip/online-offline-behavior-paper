@@ -1,0 +1,34 @@
+# Run-time outputs and data — never commit (may contain user-level data).
+*.pkl
+*.parquet
+*.lz4
+*.npy
+*.npz
+
+# Raw / per-wave survey files dropped under an outcome dir
+CSP_W*.csv
+
+# Per-outcome run-time caches written by the pipeline
+*/figures/*_metrics_by_combination.csv
+*/figures/refuser_metrics_by_combination.csv
+*/figures/*_fb1_neighbor_demo_grid.csv
+*/figures/*_fb2_predict_demographics.csv
+*/figures/*.png
+*/figures/*.pdf
+*/election_simfeed_text.pkl
+*/uid_to_election_simfeed_tweet_ids.pkl
+
+# paper_assets intermediates (NOT the final figs/tables, which are committed)
+paper_assets/signal_cache/
+paper_assets/demo_cache/
+paper_assets/pca_sweep/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# NOTE: the committed final assets (paper_assets/figs/*, paper_assets/tables/*) are intentionally
+# NOT matched by any rule above — the figure rules target "*/figures/" (per-outcome), not
+# "paper_assets/figs/", and only specific intermediate CSVs are ignored, not the tables CSVs.

@@ -1,0 +1,22 @@
+% Best TRACE-ONLY model (no demographics) per outcome x subgroup; last column = does it beat Demo alone.
+\begin{tabular}{llrrcccc}
+\toprule
+Outcome & Subgroup & $n$ & Prev. & Demo AUC & Best trace model (AUC) & Lift & Beats demo? \\
+\midrule
+Candidate choice & Overall & 1527 & 0.706 & 0.918 & Auth+Feed+Net (0.808) & -0.110 & No \\
+ & Republicans & 371 & 0.140 & 0.481 & Feed+Net (0.727) & +0.246 & Yes \\
+ & Independents & 363 & 0.703 & 0.605 & Auth+Feed (0.777) & +0.171 & Yes \\
+Vaccine refusal & Overall & 2402 & 0.131 & 0.660 & Auth+Net (0.720) & +0.060 & Yes \\
+ & Democrats & 1134 & 0.064 & 0.541 & Auth+Feed+Net (0.722) & +0.180 & Yes \\
+ & Republicans & 514 & 0.206 & 0.525 & Auth+Feed+Net (0.732) & +0.207 & Yes \\
+ & Independents & 754 & 0.179 & 0.521 & Net (0.684) & +0.164 & Yes \\
+Mail-voting intent & Overall & 1322 & 0.634 & 0.610 & Net (0.586) & -0.025 & No \\
+ & Democrats & 615 & 0.738 & 0.452 & Auth (0.498) & +0.047 & Yes \\
+ & Republicans & 293 & 0.468 & 0.468 & Auth+Feed+Net (0.686) & +0.218 & Yes \\
+ & Independents & 414 & 0.597 & 0.471 & Feed (0.568) & +0.097 & Yes \\
+Turnout intent & Overall & 1879 & 0.875 & 0.709 & Auth+Net (0.677) & -0.031 & No \\
+ & Democrats & 876 & 0.931 & 0.663 & Auth+Net (0.703) & +0.040 & Yes \\
+ & Republicans & 421 & 0.900 & 0.589 & Auth+Feed+Net (0.649) & +0.060 & Yes \\
+ & Independents & 582 & 0.771 & 0.600 & Auth+Net (0.665) & +0.065 & Yes \\
+\bottomrule
+\end{tabular}

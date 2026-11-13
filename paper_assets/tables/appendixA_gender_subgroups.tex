@@ -1,0 +1,18 @@
+% Appendix: Gender subgroup results, parallel to the party splits of Table~7.
+% Demo AUC = demographic-baseline out-of-fold ROC-AUC within the subgroup; Best model =
+% highest-AUC combination over ALL blocks (demographics included as an option); Best AUC its
+% ROC-AUC; Lift = Best - Demo.
+\begin{tabular}{llrrclrc}
+\toprule
+Outcome & Gender & $n$ & Prev. & Demo AUC & Best model & Best AUC & Lift \\
+\midrule
+Candidate choice & Female & 980 & 0.761 & 0.921 & Demo+Feed+Net & 0.951 & +0.029 \\
+ & Male & 547 & 0.607 & 0.886 & Demo+Auth+Feed & 0.913 & +0.027 \\
+Vaccine refusal & Female & 1582 & 0.145 & 0.628 & Demo+Auth+Net & 0.737 & +0.110 \\
+ & Male & 820 & 0.104 & 0.641 & Demo+Auth+Feed+Net & 0.746 & +0.105 \\
+Mail-voting intent & Female & 848 & 0.646 & 0.605 & Demo+Net & 0.620 & +0.015 \\
+ & Male & 474 & 0.612 & 0.610 & Demo+Net & 0.643 & +0.034 \\
+Turnout intent & Female & 1211 & 0.865 & 0.706 & Demo+Auth+Net & 0.748 & +0.041 \\
+ & Male & 668 & 0.894 & 0.696 & Demo+Net & 0.737 & +0.041 \\
+\bottomrule
+\end{tabular}

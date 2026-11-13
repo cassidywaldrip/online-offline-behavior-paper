@@ -1,0 +1,5 @@
+outcome,construct,positive class,n (modeled),prevalence,tweet cutoff,feed window
+Candidate choice,Candidate-choice intent,Biden = 1 (vs. Trump = 2),1527,0.706,"max(answer, 2020-09-04)",May 1 – Sep 27 2020
+Vaccine refusal,Vaccination refusal,Refuser = 1 (vs. 2–5),2402,0.131,pre-2020-12-11 (EUA),Sep 9 – Dec 9 2020
+Mail-voting intent,Mail-voting intent,"Will mail-vote = {3,4} (vs. {1,2})",1322,0.634,"max(answer, 2020-09-04)",Jun 1 – Sep 30 2020
+Turnout intent,Turnout intent (control),Definite voter = 1 (vs. 2–3),1879,0.875,"max(answer, 2020-09-04)",Sep 1 – Nov 3 2020

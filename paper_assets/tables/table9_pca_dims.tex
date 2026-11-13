@@ -1,0 +1,13 @@
+% Content-embedding PCA dimensionality, selected per outcome by cross-validated ROC-AUC
+% (content block added to the 3-dim demographic baseline); swept over {3,5,10,15,20,30,50,100,200,full}.
+% Raw pooled CT-BERT embeddings are 1024-dimensional for both authored and feed.
+\begin{tabular}{lcc}
+\toprule
+Outcome & Authored dims & Feed dims \\
+\midrule
+Candidate choice & 10 & 10 \\
+Vaccine refusal & 15 & 20 \\
+Mail-voting intent & 10 & 10 \\
+Turnout intent & 10 & 10 \\
+\bottomrule
+\end{tabular}

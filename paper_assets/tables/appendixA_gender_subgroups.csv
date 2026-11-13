@@ -1,0 +1,9 @@
+outcome,subgroup,n,prevalence,demo_roc,best_model,best_roc,lift_over_demo
+Candidate choice,Female,980,0.761,0.921,Demo+Feed+Net,0.951,+0.029
+Candidate choice,Male,547,0.607,0.886,Demo+Auth+Feed,0.913,+0.027
+Vaccine refusal,Female,1582,0.145,0.628,Demo+Auth+Net,0.737,+0.110
+Vaccine refusal,Male,820,0.104,0.641,Demo+Auth+Feed+Net,0.746,+0.105
+Mail-voting intent,Female,848,0.646,0.605,Demo+Net,0.620,+0.015
+Mail-voting intent,Male,474,0.612,0.610,Demo+Net,0.643,+0.034
+Turnout intent,Female,1211,0.865,0.706,Demo+Auth+Net,0.748,+0.041
+Turnout intent,Male,668,0.894,0.696,Demo+Net,0.737,+0.041

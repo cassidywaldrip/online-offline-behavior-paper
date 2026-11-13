@@ -1,0 +1,38 @@
+% Appendix C(b): paraphrased, de-identified examples of trace--survey divergence (cand20).
+% PRIVACY: no handles, no user ids, no verbatim tweet text, and no uniquely identifying details
+% (specific places, named accounts, or distinctive phrasings) are reproduced. Each sketch
+% paraphrases only the general theme of a respondent's online footprint. Labels A--C are ours.
+% These are illustrative cases drawn from the high-signal, trace-diverges-from-survey cell of
+% Table~C(a); figures (party, stated vote, trace scores) are non-identifying.
+
+\begin{description}
+
+\item[Example A — abundant online stance opposite the stated vote.]
+A respondent recorded in the voter file as \emph{Republican} who reported intending to vote for
+\emph{Trump}. Their authored timeline, however, consists of well over a thousand election-related
+posts that are overwhelmingly pro-Biden and critical of the incumbent---commentary faulting the
+administration's pandemic response, favorable framing of the Democratic ticket, and repeated
+appeals to vote the incumbent out. All three trace channels (authored text, simulated feed, and
+audience lean) point strongly Democratic, so the trace-only model predicts Biden with high
+confidence ($\hat p \approx 0.87$), the opposite of the survey answer. The divergence here is not
+a data-scarcity artifact: the signal is abundant and internally consistent, and simply disagrees
+with what the respondent reported.
+
+\item[Example B — party and online stance both opposite the stated vote.]
+A respondent recorded as \emph{Democrat} who reported intending to vote for \emph{Trump}. Their
+posts are strongly critical of the incumbent across several issues (public health, voting access,
+the environment), and their audience lean is heavily Democratic, so every trace channel again
+reads as Democratic and the model predicts Biden ($\hat p \approx 0.86$). This is the ``cross-
+pressured'' case in the strongest form---registration, online behavior, and the recorded vote do
+not line up---and illustrates the stance--survey misalignment documented by \citet{joseph2021}.
+
+\item[Example C — topical false positives rather than genuine divergence.]
+A respondent who reported intending to vote for \emph{Biden} but whose ``election-related''
+authored tweets are almost entirely digital-marketing and technology posts captured by generic
+keywords (``campaign,'' ``vote for\dots''), with no substantive political content. Because the
+authored-text channel is reading keyword false positives rather than political expression, the
+trace-only model leans the wrong way ($\hat p \approx 0.18$). Cases like this do not reflect a
+genuine attitude--behavior conflict; they are a reminder that keyword-based topic filters admit
+off-topic matches, and they motivate the robustness checks in Section~5.
+
+\end{description}

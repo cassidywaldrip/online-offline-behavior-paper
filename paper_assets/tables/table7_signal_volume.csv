@@ -1,0 +1,5 @@
+outcome,n_modeled,auth_median,auth_mean,auth_iqr,foll_median,foll_mean,foll_iqr
+Candidate choice,1527,11,116.8,"[3, 40]",69,149.5,"[27, 173]"
+Vaccine refusal,2402,5,37.6,"[2, 21]",52,95.5,"[21, 115]"
+Mail-voting intent,1322,10,93.7,"[3, 36]",24,51.0,"[9, 61]"
+Turnout intent,1879,10,110.2,"[3, 35]",76,159.2,"[29, 183]"
